@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 int main(){
-	FILE *file = fopen("day1input.txt", "r");
+	FILE *file = fopen("..\\input\\day1input.txt", "r");
 	long long int sumdigit = 0,flag2 = 0;
 	char str[10001];
 	while(fscanf(file,"%[^\n]\n", str)==1){
