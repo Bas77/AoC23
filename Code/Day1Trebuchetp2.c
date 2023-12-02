@@ -7,7 +7,7 @@ int main(){
 	char str[10001];
 	
 	printf("%s\n",key7);
-	FILE *file = fopen("day1input.txt", "r");
+	FILE *file = fopen("..\\input\\day1input.txt", "r");
 	while(fscanf(file,"%[^\n]\n", str)==1){
 		printf("%s\n", str);
 		int flag = 0;
